@@ -7,7 +7,7 @@ from app.database import Database
 
 
 async def main():
-    bot = Bot(token="8177880834:AAFGQwDjQUZYC0WgFxPTl2US00R6ffVs62k")
+    bot = Bot(token="ВАШ_ТОКЕН") #Здесь будет токен вашего тг бота
     dp = Dispatcher(storage=MemoryStorage())
     dp.include_router(router)
 
